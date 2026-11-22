@@ -1,0 +1,49 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Laravel
+/vendor/
+/storage/*.key
+/bootstrap/cache/*
+/storage/logs/*
+
+# Flutter
+.dart_tool/
+/.flutter-plugins
+.flutter-plugins-dependencies
+/build/
+/.pub-cache/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Firebase - clés privées et comptes de service
+**/service-account.json
+**/*serviceAccount*.json
+**/*service-account*.json
+**/firebase-adminsdk*.json
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.keystore
